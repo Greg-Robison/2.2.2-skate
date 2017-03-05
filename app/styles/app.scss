@@ -1,0 +1,184 @@
+
+// Bootstrap Variables
+$icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
+
+// Import Bootstrap
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+li {
+  list-style: none;
+}
+.wrapper {
+  background-image: url("/app/skateboard-images/bg.jpg");
+
+}
+.social-media {
+  font-size: 30px;
+  padding: 10px;
+  a {
+    padding: 20px;
+  }
+}
+.facebook {
+  background-color: #3c4d84;
+
+}
+.rss {
+  background-color: #c98d3b;
+}
+.twitter {
+  background-color: #6b8ec5;
+}
+.youtube {
+  background-color: #7c271f;
+}
+.butt {
+  background-color: #b12b32;
+  border-radius: 0px;
+  color: white;
+  width: 250px;
+}
+.btn{
+  margin-bottom: 12px;
+  margin-left: 15px;
+}
+a{
+  margin-right: 9px;
+  padding-bottom: 20px;
+
+}
+.banner {
+  background-image: url("/app/skateboard-images/top-image.png");
+  background-size: cover;
+  background-position: 0 -87px;
+
+}
+
+.layer2 {
+    display: inline-block;
+    position: absolute;
+    width: 40%;
+    z-index: 15;
+    top: 54px;
+    left: 40px;
+
+}
+.banner::after {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: .3;
+  background-image: url("/app/skateboard-images/grid.png");
+
+}
+ .container .jumbotron, .container-fluid .jumbotron {
+    position: relative;
+
+    padding-top: 10px;
+    border: solid white 3px;
+    border-radius: 0;
+    width: 1138px;
+    height: 350px;
+    overflow: hidden;
+    margin-left: 15px;
+  }
+.jumbotron {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.post {
+  background-color: white;
+  height: 425px;
+  margin-bottom: 36px;
+  overflow-y: scroll;
+
+  h2, h3, p{
+    margin: 10px;
+    padding-top: 25px;
+
+  }
+ p {
+    font-size: 18px;
+    overflow: hidden;
+  }
+}
+ .pic {
+   max-width: 100%;
+  display: inline;
+  padding: 0px;
+  border: solid white 5px;
+  margin-bottom: 20px;
+  margin-left: -30px;
+}
+.pic25{
+  max-width: 100%;
+  max-height: 100%;
+  display: inline;
+  height: 589px;
+}
+.album {
+  padding-top: 15px;
+}
+
+.boards{
+  width: 1126px;
+  background-color: white;
+  padding: 0;
+  height: 100%;
+}
+.wheels {
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  margin-left: 17px
+}
+.footer {
+  margin-top: 20px;
+  padding: 15px;
+  display: inline-block;
+  position: relative;
+  background-color: white;
+  height: 100%;
+  width: 1126px;
+  margin-left: 0px;
+}
+.name{
+  width: 430px;
+  height: 40px;
+  font-size: 20px;
+  padding-bottom: 15px;
+}
+.email{
+  font-size: 20px;
+  width: 430px;
+  height: 40px;
+  padding-bottom: 15px;
+}
+.message{
+  width: 430px;
+  height: 105px;
+  font-size: 20px;
+  padding-bottom: 75px;
+}
+.submit{
+  border-style: solid 1px #B87977;
+  border-radius: 0;
+  width: 130px;
+  background-color: #A53634;
+  margin-left: 300px;
+}
